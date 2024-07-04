@@ -6,6 +6,7 @@ package cn.yiiguxing.plugin.translate.trans.openai
  * See: [OpenAiService Models](https://platform.openai.com/docs/models)
  */
 enum class OpenAiModel(val value: String, val modelName: String) {
+    QWEN("qwen-v1","QWEN-V1"),
     GPT_3_5_TURBO("gpt-3.5-turbo", "GPT-3.5-Turbo"),
     GPT_3_5_TURBO_1106("gpt-3.5-turbo-1106", "GPT-3.5-Turbo-1106"),
     GPT_4_TURBO("gpt-4-turbo", "GPT-4-Turbo"),
