@@ -19,7 +19,7 @@ enum class OpenAiModel(val value: String, val modelName: String) {
 
     companion object {
         fun gptModels(): List<OpenAiModel> {
-            return OpenAiModel.values().filter { it.value.startsWith("gpt") }.toList()
+            return OpenAiModel.values().toList()
         }
 
         fun ttsModels(): List<OpenAiModel> {
